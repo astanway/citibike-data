@@ -34,7 +34,8 @@ with open(PATH + 'temps.csv', 'w') as csv:
     csv.write('datetime,temp,humidity,windspeed,visibility,rain,snow\n')
     for fname in glob.glob(PATH + 'json/*.json'):
         with open(fname, 'r') as f:
-            j = ujson.loads(f.read())
+            f = f.read().replace('-9999.0', 'NA').replace('-9999', 'NA')
+            j = ujson.loads(f)
             for obs in j['history']['observations']:
                 dt = '%s-%s-%s %s:%s:00' % (obs['date']['year'], obs['date']['mon'], obs['date']['mday'], obs['date']['hour'], obs['date']['min'])
                 csv.write('%s,%s,%s,%s,%s,%s,%s\n' % (dt, obs['tempi'], obs['hum'], obs['wspdi'], obs['visi'], obs['rain'], obs['snow']))

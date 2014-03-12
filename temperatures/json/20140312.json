@@ -1,0 +1,45 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "December 31, 1969",
+		"year": "1969",
+		"mon": "12",
+		"mday": "31",
+		"hour": "18",
+		"min": "59",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "December 31, 1969",
+		"year": "1969",
+		"mon": "12",
+		"mday": "31",
+		"hour": "23",
+		"min": "59",
+		"tzname": "UTC"
+		},
+		"observations": [
+		],
+		"dailysummary": [
+		{ "date": {
+		"pretty": "6:59 PM EST on December 31, 1969",
+		"year": "1969",
+		"mon": "12",
+		"mday": "31",
+		"hour": "18",
+		"min": "59",
+		"tzname": "America/New_York"
+		},
+		"fog":"0","rain":"0","snow":"0","snowfallm":"", "snowfalli":"","monthtodatesnowfallm":"", "monthtodatesnowfalli":"","since1julsnowfallm":"", "since1julsnowfalli":"","snowdepthm":"", "snowdepthi":"","hail":"0","thunder":"0","tornado":"0","meantempm":"", "meantempi":"","meandewptm":"", "meandewpti":"","meanpressurem":"", "meanpressurei":"","meanwindspdm":"", "meanwindspdi":"","meanwdire":"Variable","meanwdird":"-1","meanvism":"", "meanvisi":"","humidity":"","maxtempm":"", "maxtempi":"","mintempm":"", "mintempi":"","maxhumidity":"","minhumidity":"","maxdewptm":"", "maxdewpti":"","mindewptm":"", "mindewpti":"","maxpressurem":"", "maxpressurei":"","minpressurem":"", "minpressurei":"","maxwspdm":"", "maxwspdi":"","minwspdm":"", "minwspdi":"","maxvism":"", "maxvisi":"","minvism":"", "minvisi":"","gdegreedays":"","heatingdegreedays":"","coolingdegreedays":"","precipm":"0.0", "precipi":"0.00","precipsource":"3Or6HourObs","heatingdegreedaysnormal":"","monthtodateheatingdegreedays":"","monthtodateheatingdegreedaysnormal":"","since1sepheatingdegreedays":"","since1sepheatingdegreedaysnormal":"","since1julheatingdegreedays":"","since1julheatingdegreedaysnormal":"","coolingdegreedaysnormal":"","monthtodatecoolingdegreedays":"","monthtodatecoolingdegreedaysnormal":"","since1sepcoolingdegreedays":"","since1sepcoolingdegreedaysnormal":"","since1jancoolingdegreedays":"","since1jancoolingdegreedaysnormal":"" }
+		]
+	}
+}

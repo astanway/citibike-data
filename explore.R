@@ -1,4 +1,4 @@
-dat = read.csv("http://data.citibik.es/render/?from=-150days&target=9-Ave-%26-W-22-St.available_bikes&format=csv", header=TRUE)
+dat = read.csv("http://data.citibik.es/render/?from=-1weeks&target=9-Ave-%26-W-22-St.available_bikes&format=csv", header=TRUE)
 dat = setNames(dat, c("station", "date", "bike"))
 dat$date = as.POSIXct(dat$date)
 current = 1
@@ -37,3 +37,7 @@ one = rep(c(1), length(combined))
 com = data.frame(combined, one)
 com = xts(com[,-1], order.by=com[,1])
 both = period.apply(com, endpoints(com, "hours"), sum)
+
+plot(both)
+temps = read.csv('~/code/citibike/temperatures/temps.csv')
+lines(temps$datetime, temps$temp, type='l')
