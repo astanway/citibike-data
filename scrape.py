@@ -30,15 +30,11 @@ while start_date <= end_date:
     start_date += delta
 
 # Convert to csv
-for fname in glob.glob(PATH + 'json/*.json'):
-    csv = 'datetime, temp, humidity, windspeed, visibility, rain, snow\n'
-    with open(fname, 'r') as f:
-
-        j = ujson.loads(f.read())
-        for obs in j['history']['observations']:
-            dt = '%s-%s-%s %s:%s:00' % (obs['date']['year'], obs['date']['mon'], obs['date']['mday'], obs['date']['hour'], obs['date']['min'])
-            csv += '%s,%s,%s,%s,%s,%s,%s\n' % (dt, obs['tempi'], obs['hum'], obs['wspdi'], obs['visi'], obs['rain'], obs['snow'])
-
-    snipped = fname.replace('.json', '.csv').replace('json', 'csv')
-    with open(snipped, 'w') as f:
-        f.write(csv)
+with open(PATH + 'temps.csv', 'w') as csv:
+    csv.write('datetime,temp,humidity,windspeed,visibility,rain,snow\n')
+    for fname in glob.glob(PATH + 'json/*.json'):
+        with open(fname, 'r') as f:
+            j = ujson.loads(f.read())
+            for obs in j['history']['observations']:
+                dt = '%s-%s-%s %s:%s:00' % (obs['date']['year'], obs['date']['mon'], obs['date']['mday'], obs['date']['hour'], obs['date']['min'])
+                csv.write('%s,%s,%s,%s,%s,%s,%s\n' % (dt, obs['tempi'], obs['hum'], obs['wspdi'], obs['visi'], obs['rain'], obs['snow']))
