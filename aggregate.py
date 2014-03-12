@@ -1,6 +1,7 @@
 import urllib2
 import simplejson as json
 from collections import defaultdict
+import subprocess
 
 url = "http://data.citibik.es/metrics/index.json"
 page = urllib2.urlopen(url)
@@ -18,26 +19,27 @@ for station in stations:
             continue
         if "carbon" in station:
             continue
-        url = "http://data.citibik.es/render/?from=20130614&format=json&target=" + station.replace('&', '%26')
-        page = urllib2.urlopen(url)
-        content = page.read()
-        j = json.loads(content)
+        f = "/opt/graphite/storage/whisper/" + station.replace('.','/') + ".wsp"
+        raw = subprocess.Popen(["whisper-fetch.py", f, "--from=0"], stdout=subprocess.PIPE).communicate()[0]
         current = 0
-        for n in j[0]['datapoints']:
-          if n[0] == None:
+        for n in raw.split('\n'):
+          n = n.split()
+          if n[0] == "None" or n[1] == "None":
               continue
 
-          if int(n[0]) > current:
-              arrivals[n[1]] += int(n[0])
-              data[n[1]] += int(n[0])
+          n[0] = int(n[0])
+          n[1] = int(float(n[1]))
 
-          if int(n[0]) < current:
-              departures[n[1]] += int(n[0])
-              data[n[1]] += int(n[0])
+          if n[1] > current:
+              arrivals[n[0]] += 1
+              data[n[0]] += 1
 
-          current = int(n[0])
-          print current
-    except:
+          if n[1] < current:
+              departures[n[0]] += 1
+              data[n[0]] += 1
+          current = n[1]
+    except Exception as e:
+        print e
         continue
 
 with open('arrivals.json', 'w') as outfile:
