@@ -1,0 +1,725 @@
+
+{
+  "response": {
+  "version":"0.1",
+  "termsofService":"http://www.wunderground.com/weather/api/d/terms.html",
+  "features": {
+  "history": 1
+  }
+	}
+		,
+	"history": {
+		"date": {
+		"pretty": "December 1, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "December 1, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "17",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"observations": [
+		{
+		"date": {
+		"pretty": "12:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "00",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "5:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "05",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-2.2", "dewpti":"28.0","hum":"65","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1027.7", "pressurei":"30.35","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010551Z AUTO 00000KT 10SM BKN021 OVC047 04/M02 A3037 RMK AO2 SLP277 T00391022 10039 20022 58031" },
+		{
+		"date": {
+		"pretty": "1:20 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "01",
+		"min": "20",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "6:20 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "20",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-2.2", "dewpti":"28.0","hum":"65","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1027.7", "pressurei":"30.35","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 010620Z AUTO 00000KT 10SM FEW020 OVC049 04/M02 A3035 RMK AO2 T00391022" },
+		{
+		"date": {
+		"pretty": "1:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "01",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "6:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"2.8", "tempi":"37.0","dewptm":"-2.8", "dewpti":"27.0","hum":"67","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"290","wdire":"WNW","vism":"16.1", "visi":"10.0","pressurem":"1026.9", "pressurei":"30.33","windchillm":"0.7", "windchilli":"33.3","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010651Z AUTO 29004KT 10SM BKN050 03/M03 A3035 RMK AO2 SLP269 T00281028" },
+		{
+		"date": {
+		"pretty": "2:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "02",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "7:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "07",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"2.2", "tempi":"36.0","dewptm":"-3.3", "dewpti":"26.1","hum":"67","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"300","wdire":"WNW","vism":"16.1", "visi":"10.0","pressurem":"1026.4", "pressurei":"30.31","windchillm":"-0.5", "windchilli":"31.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010751Z AUTO 30005KT 10SM FEW025 BKN038 OVC046 02/M03 A3034 RMK AO2 SLP264 T00221033" },
+		{
+		"date": {
+		"pretty": "3:10 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "03",
+		"min": "10",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "8:10 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "08",
+		"min": "10",
+		"tzname": "UTC"
+		},
+		"tempm":"2.2", "tempi":"36.0","dewptm":"-3.3", "dewpti":"26.1","hum":"67","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1026.6", "pressurei":"30.32","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 010810Z AUTO 00000KT 10SM BKN027 BKN038 OVC055 02/M03 A3032 RMK AO2 T00221033" },
+		{
+		"date": {
+		"pretty": "3:15 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "03",
+		"min": "15",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "8:15 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "08",
+		"min": "15",
+		"tzname": "UTC"
+		},
+		"tempm":"-9999", "tempi":"-9999","dewptm":"-9999", "dewpti":"-9999","hum":"N/A","wspdm":"-9999.0", "wspdi":"-9999.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"-9999.0", "visi":"-9999.0","pressurem":"-9999", "pressurei":"-9999","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Unknown","icon":"unknown","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010815 COR" },
+		{
+		"date": {
+		"pretty": "3:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "03",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "8:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "08",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"2.8", "tempi":"37.0","dewptm":"-2.8", "dewpti":"27.0","hum":"67","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1025.3", "pressurei":"30.28","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010851Z AUTO 00000KT 10SM SCT020 BKN028 03/M03 A3030 RMK AO2 SLP253 T00281028 58023" },
+		{
+		"date": {
+		"pretty": "4:25 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "04",
+		"min": "25",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "9:25 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "25",
+		"tzname": "UTC"
+		},
+		"tempm":"2.8", "tempi":"37.0","dewptm":"-2.8", "dewpti":"27.0","hum":"67","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"Variable","vism":"16.1", "visi":"10.0","pressurem":"1025.6", "pressurei":"30.29","windchillm":"1.4", "windchilli":"34.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 010925Z AUTO VRB03KT 10SM FEW020 SCT025 BKN030 03/M03 A3029 RMK AO2 T00281028" },
+		{
+		"date": {
+		"pretty": "4:35 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "04",
+		"min": "35",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "9:35 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "35",
+		"tzname": "UTC"
+		},
+		"tempm":"3.3", "tempi":"37.9","dewptm":"-2.2", "dewpti":"28.0","hum":"68","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1025.6", "pressurei":"30.29","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 010935Z AUTO 00000KT 10SM SCT019 BKN024 OVC048 03/M02 A3029 RMK AO2 T00331022" },
+		{
+		"date": {
+		"pretty": "4:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "04",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "9:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"3.3", "tempi":"37.9","dewptm":"-2.2", "dewpti":"28.0","hum":"68","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.5", "pressurei":"30.26","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 010951Z AUTO 00000KT 10SM BKN018 BKN024 OVC032 03/M02 A3028 RMK AO2 SLP245 T00331022" },
+		{
+		"date": {
+		"pretty": "5:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "05",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "10:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "10",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-1.7", "dewpti":"28.9","hum":"67","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.1", "pressurei":"30.25","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011051Z AUTO 00000KT 10SM BKN025 BKN031 04/M02 A3027 RMK AO2 SLP241 T00391017" },
+		{
+		"date": {
+		"pretty": "6:00 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "00",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "11:00 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "11",
+		"min": "00",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-1.7", "dewpti":"28.9","hum":"67","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.9", "pressurei":"30.27","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 011100Z AUTO 00000KT 10SM SCT025 BKN031 04/M02 A3027 RMK AO2 T00391017" },
+		{
+		"date": {
+		"pretty": "6:09 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "09",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "11:09 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "11",
+		"min": "09",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-1.1", "dewpti":"30.0","hum":"70","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.6", "pressurei":"30.26","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 011109Z AUTO 00000KT 10SM BKN024 BKN033 04/M01 A3026 RMK AO2 T00391011" },
+		{
+		"date": {
+		"pretty": "6:40 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "40",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "11:40 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "11",
+		"min": "40",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-1.1", "dewpti":"30.0","hum":"70","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.6", "pressurei":"30.26","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 011140Z AUTO 00000KT 10SM SCT024 04/M01 A3026 RMK AO2 T00391011" },
+		{
+		"date": {
+		"pretty": "6:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "06",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "11:51 AM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "11",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"3.3", "tempi":"37.9","dewptm":"-1.1", "dewpti":"30.0","hum":"73","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1024.0", "pressurei":"30.24","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Partly Cloudy","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011151Z AUTO 00000KT 10SM FEW024 03/M01 A3026 RMK AO2 SLP240 T00331011 10039 20022 56014" },
+		{
+		"date": {
+		"pretty": "7:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "07",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "12:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "12",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"3.9", "tempi":"39.0","dewptm":"-0.6", "dewpti":"30.9","hum":"73","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1023.7", "pressurei":"30.23","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011251Z AUTO 00000KT 10SM CLR 04/M01 A3025 RMK AO2 SLP237 T00391006" },
+		{
+		"date": {
+		"pretty": "8:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "08",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "1:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "13",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"5.6", "tempi":"42.1","dewptm":"0.0", "dewpti":"32.0","hum":"67","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1023.2", "pressurei":"30.22","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011351Z AUTO 00000KT 10SM CLR 06/00 A3024 RMK AO2 SLP232 T00560000" },
+		{
+		"date": {
+		"pretty": "9:40 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "40",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "2:40 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "14",
+		"min": "40",
+		"tzname": "UTC"
+		},
+		"tempm":"6.1", "tempi":"43.0","dewptm":"-0.6", "dewpti":"30.9","hum":"62","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1023.6", "pressurei":"30.23","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 011440Z AUTO 00000KT 10SM BKN024 BKN120 06/M01 A3023 RMK AO2 T00611006" },
+		{
+		"date": {
+		"pretty": "9:49 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "49",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "2:49 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "14",
+		"min": "49",
+		"tzname": "UTC"
+		},
+		"tempm":"7.0", "tempi":"44.6","dewptm":"0.0", "dewpti":"32.0","hum":"61","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"60","wdire":"ENE","vism":"16.1", "visi":"10.0","pressurem":"1023.6", "pressurei":"30.23","windchillm":"6.2", "windchilli":"43.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"SPECI KNYC 011449Z AUTO 06003KT 10SM FEW023 BKN120 07/00 A3023 RMK AO2" },
+		{
+		"date": {
+		"pretty": "9:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "09",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "2:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "14",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.2", "tempi":"45.0","dewptm":"0.0", "dewpti":"32.0","hum":"60","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"70","wdire":"ENE","vism":"16.1", "visi":"10.0","pressurem":"1022.8", "pressurei":"30.21","windchillm":"6.4", "windchilli":"43.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011451Z AUTO 07003KT 10SM FEW023 BKN120 07/00 A3023 RMK AO2 SLP228 T00720000 56009" },
+		{
+		"date": {
+		"pretty": "10:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "10",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "3:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "15",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"6.7", "tempi":"44.1","dewptm":"-0.6", "dewpti":"30.9","hum":"60","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1021.9", "pressurei":"30.18","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011551Z AUTO 00000KT 10SM OVC120 07/M01 A3020 RMK AO2 SLP219 T00671006" },
+		{
+		"date": {
+		"pretty": "11:51 AM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "11",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "4:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "16",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.8", "tempi":"46.0","dewptm":"-1.1", "dewpti":"30.0","hum":"54","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"Variable","vism":"16.1", "visi":"10.0","pressurem":"1020.7", "pressurei":"30.14","windchillm":"7.1", "windchilli":"44.8","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011651Z AUTO VRB03KT 10SM SCT120 08/M01 A3016 RMK AO2 SLP207 T00781011" },
+		{
+		"date": {
+		"pretty": "12:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "12",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "5:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "17",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.8", "tempi":"46.0","dewptm":"-1.1", "dewpti":"30.0","hum":"54","wspdm":"9.3", "wspdi":"5.8","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"270","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1019.6", "pressurei":"30.11","windchillm":"6.2", "windchilli":"43.1","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011751Z AUTO 27005KT 10SM OVC110 08/M01 A3013 RMK AO2 SLP196 T00781011 10083 20033 58032" },
+		{
+		"date": {
+		"pretty": "1:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "13",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "6:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "18",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.3", "tempi":"46.9","dewptm":"-2.2", "dewpti":"28.0","hum":"48","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"Variable","vism":"16.1", "visi":"10.0","pressurem":"1018.6", "pressurei":"30.08","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011851Z AUTO VRB03KT 10SM OVC100 08/M02 A3010 RMK AO2 SLP186 T00831022" },
+		{
+		"date": {
+		"pretty": "2:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "14",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "7:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "19",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"9.4", "tempi":"48.9","dewptm":"-1.7", "dewpti":"28.9","hum":"46","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1018.5", "pressurei":"30.08","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Scattered Clouds","icon":"partlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 011951Z AUTO 00000KT 10SM SCT100 09/M02 A3010 RMK AO2 SLP185 T00941017" },
+		{
+		"date": {
+		"pretty": "3:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "15",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "8:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "20",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.9", "tempi":"48.0","dewptm":"-2.2", "dewpti":"28.0","hum":"46","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1018.2", "pressurei":"30.07","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 012051Z AUTO 00000KT 10SM CLR 09/M02 A3009 RMK AO2 SLP182 T00891022 56013" },
+		{
+		"date": {
+		"pretty": "4:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "16",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "9:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "21",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.9", "tempi":"48.0","dewptm":"-2.2", "dewpti":"28.0","hum":"46","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1018.1", "pressurei":"30.07","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 012151Z AUTO 00000KT 10SM OVC085 09/M02 A3009 RMK AO2 SLP181 T00891022" },
+		{
+		"date": {
+		"pretty": "5:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "17",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "10:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "22",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.9", "tempi":"48.0","dewptm":"-1.7", "dewpti":"28.9","hum":"48","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"300","wdire":"WNW","vism":"16.1", "visi":"10.0","pressurem":"1017.8", "pressurei":"30.06","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 012251Z AUTO 30004KT 10SM OVC090 09/M02 A3008 RMK AO2 SLP178 T00891017" },
+		{
+		"date": {
+		"pretty": "6:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "18",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "11:51 PM GMT on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "23",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.9", "tempi":"48.0","dewptm":"-1.7", "dewpti":"28.9","hum":"48","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1017.8", "pressurei":"30.06","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 012351Z AUTO 00000KT 10SM OVC090 09/M02 A3008 RMK AO2 SLP178 T00891017 10094 20078 56004" },
+		{
+		"date": {
+		"pretty": "7:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "19",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "12:51 AM GMT on December 02, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "02",
+		"hour": "00",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.3", "tempi":"46.9","dewptm":"-2.2", "dewpti":"28.0","hum":"48","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"280","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1017.6", "pressurei":"30.05","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 020051Z AUTO 28003KT 10SM OVC090 08/M02 A3008 RMK AO2 SLP176 T00831022 $" },
+		{
+		"date": {
+		"pretty": "8:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "20",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "1:51 AM GMT on December 02, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "02",
+		"hour": "01",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"8.3", "tempi":"46.9","dewptm":"-1.7", "dewpti":"28.9","hum":"50","wspdm":"7.4", "wspdi":"4.6","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"280","wdire":"West","vism":"16.1", "visi":"10.0","pressurem":"1017.1", "pressurei":"30.04","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Mostly Cloudy","icon":"mostlycloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 020151Z AUTO 28004KT 10SM BKN095 08/M02 A3006 RMK AO2 SLP171 T00831017 $" },
+		{
+		"date": {
+		"pretty": "9:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "21",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "2:51 AM GMT on December 02, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "02",
+		"hour": "02",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.8", "tempi":"46.0","dewptm":"-1.7", "dewpti":"28.9","hum":"51","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1017.0", "pressurei":"30.04","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Clear","icon":"clear","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 020251Z AUTO 00000KT 10SM CLR 08/M02 A3006 RMK AO2 SLP170 T00781017 $" },
+		{
+		"date": {
+		"pretty": "10:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "22",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "3:51 AM GMT on December 02, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "02",
+		"hour": "03",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.8", "tempi":"46.0","dewptm":"-2.2", "dewpti":"28.0","hum":"50","wspdm":"0.0", "wspdi":"0.0","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"0","wdire":"North","vism":"16.1", "visi":"10.0","pressurem":"1016.6", "pressurei":"30.02","windchillm":"-999", "windchilli":"-999","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 020351Z AUTO 00000KT 10SM OVC100 08/M02 A3005 RMK AO2 SLP166 T00781022 $" },
+		{
+		"date": {
+		"pretty": "11:51 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "23",
+		"min": "51",
+		"tzname": "America/New_York"
+		},
+		"utcdate": {
+		"pretty": "4:51 AM GMT on December 02, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "02",
+		"hour": "04",
+		"min": "51",
+		"tzname": "UTC"
+		},
+		"tempm":"7.2", "tempi":"45.0","dewptm":"-2.2", "dewpti":"28.0","hum":"52","wspdm":"5.6", "wspdi":"3.5","wgustm":"-9999.0", "wgusti":"-9999.0","wdird":"320","wdire":"NW","vism":"16.1", "visi":"10.0","pressurem":"1016.4", "pressurei":"30.02","windchillm":"6.4", "windchilli":"43.5","heatindexm":"-9999", "heatindexi":"-9999","precipm":"-9999.00", "precipi":"-9999.00","conds":"Overcast","icon":"cloudy","fog":"0","rain":"0","snow":"0","hail":"0","thunder":"0","tornado":"0","metar":"METAR KNYC 020451Z AUTO 32003KT 10SM OVC100 07/M02 A3004 RMK AO2 SLP164 T00721022 400940022 $" }
+		],
+		"dailysummary": [
+		{ "date": {
+		"pretty": "12:00 PM EST on December 01, 2013",
+		"year": "2013",
+		"mon": "12",
+		"mday": "01",
+		"hour": "12",
+		"min": "00",
+		"tzname": "America/New_York"
+		},
+		"fog":"0","rain":"0","snow":"0","snowfallm":"0.00", "snowfalli":"0.00","monthtodatesnowfallm":"0.00", "monthtodatesnowfalli":"0.00","since1julsnowfallm":"T", "since1julsnowfalli":"T","snowdepthm":"0.00", "snowdepthi":"0.00","hail":"0","thunder":"0","tornado":"0","meantempm":"6", "meantempi":"43","meandewptm":"-2", "meandewpti":"29","meanpressurem":"1022", "meanpressurei":"30.19","meanwindspdm":"3", "meanwindspdi":"2","meanwdire":"","meanwdird":"306","meanvism":"16", "meanvisi":"10","humidity":"","maxtempm":"9", "maxtempi":"49","mintempm":"2", "mintempi":"36","maxhumidity":"76","minhumidity":"46","maxdewptm":"0", "maxdewpti":"32","mindewptm":"-3", "mindewpti":"26","maxpressurem":"1028", "maxpressurei":"30.35","minpressurem":"1016", "minpressurei":"30.02","maxwspdm":"11", "maxwspdi":"7","minwspdm":"0", "minwspdi":"0","maxvism":"16", "maxvisi":"10","minvism":"16", "minvisi":"10","gdegreedays":"0","heatingdegreedays":"22","coolingdegreedays":"0","precipm":"0.00", "precipi":"0.00","precipsource":"","heatingdegreedaysnormal":"23","monthtodateheatingdegreedays":"22","monthtodateheatingdegreedaysnormal":"23","since1sepheatingdegreedays":"","since1sepheatingdegreedaysnormal":"","since1julheatingdegreedays":"830","since1julheatingdegreedaysnormal":"856","coolingdegreedaysnormal":"0","monthtodatecoolingdegreedays":"0","monthtodatecoolingdegreedaysnormal":"0","since1sepcoolingdegreedays":"","since1sepcoolingdegreedaysnormal":"","since1jancoolingdegreedays":"1271","since1jancoolingdegreedaysnormal":"1105" }
+		]
+	}
+}
