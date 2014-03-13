@@ -1,5 +1,5 @@
 # Get the departures
-json_file <- "~/code/citibike/departures.json"
+json_file <- "http://abe.is/full/of/data/departures.json"
 json_data <- fromJSON(paste(readLines(json_file), collapse=""))
 date = names(unlist(json_data))
 date = round(as.POSIXlt(as.numeric(date), origin="1970-01-01"), "hours")
@@ -14,7 +14,7 @@ departures = period.apply(com, endpoints(com, "days"), sum)
 plot(departures)
 
 # Get the temperatures
-temps = read.csv("~/code/citibike/temperatures/temps.csv", header=TRUE)
+temps = read.csv("http://abe.is/full/of/data/temps.csv", header=TRUE)
 temps$datetime = round(as.POSIXct(temps$datetime), "hours")
 com = data.frame(temps$datetime, temps$temp)
 com = xts(com[,-1], order.by=com[,1])
@@ -36,8 +36,12 @@ merged = merge(departures, both)
 ccf(drop(departures), drop(both), na.action = na.pass)
 cor(merged$departures, merged$both, use='complete.obs')
 
+# it's like 60% yo!
+
 # Monte Carlo
 rand1 = sample(nrow(departures))
 rand2 = sample(nrow(both))
 ccf(drop(rand1), drop(rand2), na.action = na.pass)
 cor(rand1, rand2, use='complete.obs')
+
+# it's like, nothin, yo!

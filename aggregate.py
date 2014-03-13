@@ -1,3 +1,5 @@
+# run this on the server
+
 import urllib2
 import simplejson as json
 from collections import defaultdict
