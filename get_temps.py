@@ -1,3 +1,5 @@
+# run this on the laptop
+
 import urllib2
 import datetime
 import os.path
