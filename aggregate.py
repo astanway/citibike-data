@@ -22,7 +22,7 @@ for station in stations:
         if "carbon" in station:
             continue
         f = "/opt/graphite/storage/whisper/" + station.replace('.','/') + ".wsp"
-        raw = subprocess.Popen(["whisper-fetch.py", f, "--from=0"], stdout=subprocess.PIPE).communicate()[0]
+        raw = subprocess.Popen(["whisper-fetch.py", f, "--from=1394690000"], stdout=subprocess.PIPE).communicate()[0]
         current = 0
         for n in raw.split('\n'):
           n = n.split()
@@ -42,6 +42,7 @@ for station in stations:
           current = n[1]
     except Exception as e:
         print e
+        break
         continue
 
 with open('arrivals.json', 'w') as outfile:
