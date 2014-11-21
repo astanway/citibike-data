@@ -8,4 +8,4 @@ Future work:
 1. A rebalancing predictor and scheduler?
 2. A thing to predict if there will be bikes (probability of empty dock, assuming no rebalancing)
 
-![x][https://raw.githubusercontent.com/astanway/citibike_analysis/master/linegraphs.png]
+![x](https://raw.githubusercontent.com/astanway/citibike_analysis/master/linegraphs.png)
